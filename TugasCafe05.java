@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class TugasCafe05{
     public static void input(){
 
@@ -62,11 +60,6 @@ public class TugasCafe05{
         }
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Jumlah mahasiswa: ");
-        int mhs = sc.nextInt();
-        System.out.print("Jumlah tugas: ");
-        int tugas = sc.nextInt();
         input();
         menuTertinggi();
         menuRata2();
